@@ -1,0 +1,44 @@
+.placeholder {
+  height: 64px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  background-color: #4169e1;
+}
+
+.field {
+  width: 400px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+}
+
+.field:focus {
+  outline: 2px solid yellow;
+}
+
+.button {
+  padding: 8px 16px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: lightyellow;
+  transition: 0.3s ease-in-out;
+}
+
+@media (hover: hover) {
+  .button:hover {
+    background-color: yellow;
+  }
+}
