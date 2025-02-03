@@ -17,6 +17,9 @@ body {
   margin: 0;
   place-items: center;
   min-height: 100vh;
+  background-image: url('/src/public/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 table {
